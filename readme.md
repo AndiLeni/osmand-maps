@@ -15,7 +15,7 @@ Nachteil: Alle Kartenebenen müssen einzeln installiert werden.
 
 <a href="http://osmand.net/add-tile-source?name=Bayernatlas Freizeitwege - Fernradwege&min_zoom=5&max_zoom=20&url_template=https%3A%2F%2Fgeoservices.bayern.de%2Fod%2Fwms%2Fatkis%2Fv1%2Ffreizeitwege%3FSERVICE%3DWMS%26VERSION%3D1.1.1%26REQUEST%3DGetMap%26BBOX%3D%7Bbbox%7D%26SRS%3DEPSG%3A4326%26WIDTH%3D512%26HEIGHT%3D512%26LAYERS%3Dby_fzw_fernradwege%26FORMAT%3Dimage%2Fpng%26TRANSPARENT%3DTRUE">Bayernatlas Freizeitwege - Fernradwege</a>
 
-<a href="http://osmand.net/add-tile-source?name=Bayernatlas Freizeitwege - Alle Radwege&min_zoom=5&max_zoom=20&url_template=https%3A%2F%2Fgeoservices.bayern.de%2Fod%2Fwms%2Fatkis%2Fv1%2Ffreizeitwege%3FSERVICE%3DWMS%26VERSION%3D1.1.1%26REQUEST%3DGetMap%26BBOX%3D%7Bbbox%7D%26SRS%3DEPSG%3A4326%26WIDTH%3D512%26HEIGHT%3D512%26LAYERS%3Dby_fzw_radwege%26FORMAT%3Dimage%2Fpng%26TRANSPARENT%3DTRUE">Bayernatlas Freizeitwege - Radwege</a>
+<a href="http://osmand.net/add-tile-source?name=Bayernatlas Freizeitwege - Radwege&min_zoom=5&max_zoom=20&url_template=https%3A%2F%2Fgeoservices.bayern.de%2Fod%2Fwms%2Fatkis%2Fv1%2Ffreizeitwege%3FSERVICE%3DWMS%26VERSION%3D1.1.1%26REQUEST%3DGetMap%26BBOX%3D%7Bbbox%7D%26SRS%3DEPSG%3A4326%26WIDTH%3D512%26HEIGHT%3D512%26LAYERS%3Dby_fzw_radwege%26FORMAT%3Dimage%2Fpng%26TRANSPARENT%3DTRUE">Bayernatlas Freizeitwege - Radwege</a>
 
 <a href="http://osmand.net/add-tile-source?name=Bayernatlas Freizeitwege - Mountainbikewege&min_zoom=5&max_zoom=20&url_template=https%3A%2F%2Fgeoservices.bayern.de%2Fod%2Fwms%2Fatkis%2Fv1%2Ffreizeitwege%3FSERVICE%3DWMS%26VERSION%3D1.1.1%26REQUEST%3DGetMap%26BBOX%3D%7Bbbox%7D%26SRS%3DEPSG%3A4326%26WIDTH%3D512%26HEIGHT%3D512%26LAYERS%3Dby_fzw_mountainbikewege%26FORMAT%3Dimage%2Fpng%26TRANSPARENT%3DTRUE">Bayernatlas Freizeitwege - Mountainbikewege</a>
 
@@ -26,6 +26,10 @@ Nachteil: Alle Kartenebenen müssen einzeln installiert werden.
 <a href="http://osmand.net/add-tile-source?name=Bayernatlas Freizeitwege - Örtliche Wanderwege&min_zoom=5&max_zoom=20&url_template=https%3A%2F%2Fgeoservices.bayern.de%2Fod%2Fwms%2Fatkis%2Fv1%2Ffreizeitwege%3FSERVICE%3DWMS%26VERSION%3D1.1.1%26REQUEST%3DGetMap%26BBOX%3D%7Bbbox%7D%26SRS%3DEPSG%3A4326%26WIDTH%3D512%26HEIGHT%3D512%26LAYERS%3Dby_fzw_oertliche_wanderwege%26FORMAT%3Dimage%2Fpng%26TRANSPARENT%3DTRUE">Bayernatlas Freizeitwege - Örtliche Wanderwege</a>
 
 <a href="http://osmand.net/add-tile-source?name=Bayernatlas Digitale Topographische Karte 1:25000&min_zoom=5&max_zoom=20&url_template=https%3A%2F%2Fgeoservices.bayern.de%2Fod%2Fwms%2Fdtk%2Fv1%2Fdtk25%3FSERVICE%3DWMS%26VERSION%3D1.1.1%26REQUEST%3DGetMap%26BBOX%3D%7Bbbox%7D%26SRS%3DEPSG%3A4326%26WIDTH%3D512%26HEIGHT%3D512%26LAYERS%3Dby_dtk25%26FORMAT%3Dimage%2Fpng%26TRANSPARENT%3DTRUE">Bayernatlas Digitale Topographische Karte 1:25000</a>
+
+<a href="http://osmand.net/add-tile-source?name=Bayernatlas - Kombination alle Radwege&min_zoom=5&max_zoom=20&url_template=https%3A%2F%2Fgeoservices.bayern.de%2Fod%2Fwms%2Fatkis%2Fv1%2Ffreizeitwege%3FSERVICE%3DWMS%26VERSION%3D1.1.1%26REQUEST%3DGetMap%26BBOX%3D%7Bbbox%7D%26SRS%3DEPSG%3A4326%26WIDTH%3D512%26HEIGHT%3D512%26LAYERS%3Dby_fzw_bfr%2Cby_fzw_fernradwege%2Cby_fzw_radwege%2Cby_fzw_mountainbikewege%26FORMAT%3Dimage%2Fpng%26TRANSPARENT%3DTRUE">Bayernatlas - Kombination alle Radwege</a>
+
+<a href="http://osmand.net/add-tile-source?name=Bayernatlas - Kombination alle Wanderwege&min_zoom=5&max_zoom=20&url_template=https%3A%2F%2Fgeoservices.bayern.de%2Fod%2Fwms%2Fatkis%2Fv1%2Ffreizeitwege%3FSERVICE%3DWMS%26VERSION%3D1.1.1%26REQUEST%3DGetMap%26BBOX%3D%7Bbbox%7D%26SRS%3DEPSG%3A4326%26WIDTH%3D512%26HEIGHT%3D512%26LAYERS%3Dby_fzw_fernwanderwege%2Cby_fzw_wanderwege%2Cby_fzw_oertliche_wanderwege%26FORMAT%3Dimage%2Fpng%26TRANSPARENT%3DTRUE">Bayernatlas - Kombination alle Wanderwege</a>
 
 ### Methode 2: Installation per Datei
 
@@ -40,6 +44,7 @@ Laden Sie die Datei <a href="/bayernatlas/bayernatlas.osf?raw=true" download>bay
 -   https://osmand.net/docs/user/map/raster-maps/
 -   https://geodaten.bayern.de/opengeodata/OpenDataDetail.html?pn=bvv_radwege
 -   https://osmand.net/docs/user/map/raster-maps?_highlight=url#magic-url-to-install-map-source
+-   https://geodatenonline.bayern.de/geodatenonline/seiten/wms_fzw
 
 ### Hinweise
 

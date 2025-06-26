@@ -13,5 +13,5 @@ for item in items:
     max_zoom = item["maxZoom"]
 
     magic_url = f"http://osmand.net/add-tile-source?name={name}&min_zoom={min_zoom}&max_zoom={max_zoom}&url_template={url_template}"
-    html = f"""<a href="{magic_url}">{name}</a>"""
+    html = f"""<a href="{magic_url}">{name}</a> \n"""
     print(html)

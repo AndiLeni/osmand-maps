@@ -26,7 +26,7 @@
                 },
                 {
                     "sql": true,
-                    "name": "Bayernatlas Freizeitwege - Alle Radwege",
+                    "name": "Bayernatlas Freizeitwege - Radwege",
                     "minZoom": 5,
                     "maxZoom": 20,
                     "url": "https://geoservices.bayern.de/od/wms/atkis/v1/freizeitwege?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&BBOX={bbox}&SRS=EPSG:4326&WIDTH=512&HEIGHT=512&LAYERS=by_fzw_radwege&FORMAT=image/png&TRANSPARENT=TRUE",
@@ -80,6 +80,26 @@
                     "minZoom": 5,
                     "maxZoom": 20,
                     "url": "https://geoservices.bayern.de/od/wms/dtk/v1/dtk25?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&BBOX={bbox}&SRS=EPSG:4326&WIDTH=512&HEIGHT=512&LAYERS=by_dtk25&FORMAT=image/png&TRANSPARENT=TRUE",
+                    "expire": 43200,
+                    "ext": ".png",
+                    "tileSize": 512
+                },
+                {
+                    "sql": true,
+                    "name": "Bayernatlas - Kombination alle Radwege",
+                    "minZoom": 5,
+                    "maxZoom": 20,
+                    "url": "https://geoservices.bayern.de/od/wms/atkis/v1/freizeitwege?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&BBOX={bbox}&SRS=EPSG:4326&WIDTH=512&HEIGHT=512&LAYERS=by_fzw_bfr,by_fzw_fernradwege,by_fzw_radwege,by_fzw_mountainbikewege&FORMAT=image/png&TRANSPARENT=TRUE",
+                    "expire": 43200,
+                    "ext": ".png",
+                    "tileSize": 512
+                },
+                {
+                    "sql": true,
+                    "name": "Bayernatlas - Kombination alle Wanderwege",
+                    "minZoom": 5,
+                    "maxZoom": 20,
+                    "url": "https://geoservices.bayern.de/od/wms/atkis/v1/freizeitwege?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&BBOX={bbox}&SRS=EPSG:4326&WIDTH=512&HEIGHT=512&LAYERS=by_fzw_fernwanderwege,by_fzw_wanderwege,by_fzw_oertliche_wanderwege&FORMAT=image/png&TRANSPARENT=TRUE",
                     "expire": 43200,
                     "ext": ".png",
                     "tileSize": 512
