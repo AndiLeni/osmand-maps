@@ -29,7 +29,7 @@ Nachteil: Alle Kartenebenen müssen einzeln installiert werden.
 
 ### Methode 2: Installation per Datei
 
-Laden Sie die Datei [bayernatlas.osf](/bayernatlas/bayernatlas.osf) herunter und importieren Sie sie in OsmAnd.
+Laden Sie die Datei <a href="/bayernatlas/bayernatlas.osf" download>bayernatlas.osf</a> herunter und importieren Sie sie in OsmAnd.
 
 ## Zusätzliche Informationen
 
